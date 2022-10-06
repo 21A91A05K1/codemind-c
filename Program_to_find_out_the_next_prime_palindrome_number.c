@@ -31,7 +31,5 @@ int main()
         }
         r=0;
     }
-    printf("%ld
-",n);
-    return 0;
+    printf("%ld",n);
 }
