@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main()
+{
+    int n,arr[100],brr[100],i,s=0,su=0,k;
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&brr[i]);
+    }
+    for(i=0;i<n;i++)
+    {
+        s=s+arr[i];
+    }
+    for(i=0;i<n;i++)
+    {
+        su=su+brr[i];
+    }
+    k=su-s;
+    if(k>0)
+    {
+        printf("%d",k);
+    }
+    else
+    {
+        printf("0");
+    }
+}
